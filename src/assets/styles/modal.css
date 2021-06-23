@@ -1,0 +1,107 @@
+.modal-mask {
+    position: fixed;
+    z-index: 9998;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: table;
+    transition: opacity 0.3s ease;
+  }
+  
+  .modal-wrapper {
+    display: table-cell;
+    vertical-align: middle;
+  }
+  
+  .modal-container {
+    width: 450px;
+    height: 150px;
+    margin: 0px auto;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.33);
+    transition: all 0.3s ease;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  
+  .modal-header h3 {
+    margin-top: 0;
+    color: #42b983;
+  }
+  
+  .modal-body {
+    margin: 20px 0;
+  }
+  
+  .modal-default-button {
+    float: right;
+  }
+
+
+  label{
+    display: block;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 20px 0 10px 0;
+  }
+
+  input {
+    padding: 10px;
+    border: 0px;
+    border: 2px solid #ddd;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 6px;
+    height: 40px;
+  }
+
+  input[type="checkbox"] {
+    display: inline-block;
+    width: 16px;
+    margin: 0 10px 0 0;
+    position: relative;
+    top: 14px;
+  }
+
+  p{
+  display: flex;
+  color: black;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 32px;
+  left: 30px;
+  }
+
+  form button {
+    display: inline-block;
+    margin-bottom: 45px px 45px 50px;
+    margin: 10px;
+    padding-left: 50px;
+    color: white;
+    border: 0px;
+    border-radius: 6px;
+    font-size: 16px;
+    position: relative;
+    margin-left: 10px;
+    bottom:55px;
+    left: 150px;
+  }
+
+.primary-btn{
+    background: rgb(6, 109, 150);
+    cursor: pointer;
+  }
+
+  .secondary-btn{
+    background: rgb(151, 3, 3);
+    cursor: pointer;
+  }

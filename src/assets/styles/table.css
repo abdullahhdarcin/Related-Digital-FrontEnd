@@ -1,0 +1,54 @@
+.flex-table {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    padding: 10px 50px;
+    margin: 50px;
+}
+.flex-table thead {
+    border-bottom: 1px solid rgba(112, 112, 112, 0.336);
+    padding-bottom: 5px;
+    flex: 1; 
+}
+
+.flex-table tbody tr td{
+    display: grid;
+    margin-left: 110px;    
+}
+
+.title{
+    margin-right: 410px;
+}
+
+.titleinfo{
+    padding-top: 15px;
+    width: 450px;
+}
+
+
+.flex-table thead tr,
+.flex-table tbody tr {
+    display: flex;
+}
+
+.flex-table thead tr th {
+    display: flex;
+    flex: 1;
+    padding-left: 8em;
+    flex-wrap: nowrap;
+}
+
+.flex-table tbody tr td {
+    display: flex;
+    flex: 1;
+    padding-left: 8em;
+    padding: 15px 0 15px 20px;
+}
+
+button{
+    padding: 5px 50px;
+    border:none;
+    border-radius: 8px;
+    color: white;
+    margin-left: 10px;
+}

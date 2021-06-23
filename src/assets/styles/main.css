@@ -1,0 +1,24 @@
+.pagination-container{
+    display: grid;
+    width: 100%;
+}
+
+.pagination{
+    display: flex;
+    max-height: 100px;
+}
+
+.pagination-button{
+    padding:10px; 
+    place-items: center;
+    border-radius: 10px;
+    position: relative;
+    left: 530px;
+    background: rgb(161, 160, 160);
+    cursor: pointer;
+}
+
+
+.pagination-button:hover{
+    background: crimson;
+}
